@@ -150,6 +150,72 @@
     padding-bottom: 20px;
     padding-left: 20px;
 }
+.main .Book-section .booking-container .passenger-details-container .leave-return {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.main .Book-section .booking-container .passenger-details-container .leave-return .depart {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.main .Book-section .booking-container .passenger-details-container .leave-return .depart input {
+    width: 300px;
+    border: 1px solid var(--Primary);
+    height: 64px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+.main .Book-section .booking-container .passenger-details-container .leave-return .return {
+    display: flex;
+    align-items: center;
+}
+.main .Book-section .booking-container .passenger-details-container .leave-return .return input {
+    width: 300px;
+    border: 1px solid var(--Primary);
+    height: 64px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+.main .Book-section .booking-container .passenger-details-container .add-search {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.main .Book-section .booking-container .passenger-details-container .add-search p {
+    display: flex;
+    justify-content: center;
+    padding-left: 120px;
+    font-size: 19px;
+    color: var(--Tertiary);
+    font-weight: 600;
+    padding-top: 20px;
+}
+.main .Book-section .booking-container .passenger-details-container .add-search p span {
+    margin-top: 10px;
+}
+.main .Book-section .booking-container .passenger-details-container .add-search p i {
+    font-size: 42px;
+    padding-right: 20px;
+}
+.main .Book-section .booking-container .passenger-details-container .add-search .search {
+    display: flex;
+}
+.main .Book-section .booking-container .passenger-details-container .add-search .search input {
+    width: 180px;
+    height: 64px;
+    border: 1px solid var(--Primary);
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
 
 .main .Book-section > .status-container {
     height: 50px;
