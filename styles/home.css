@@ -1,0 +1,188 @@
+.main {
+    position: relative;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+    background: #f5f5f5;
+}
+.main .home-section {
+    display: grid;
+    grid-template-rows: 120px 1fr;
+    height: 100vh;
+    background-color: #f5f5f5;
+    position: relative;
+}
+/* Nav main */
+.main .home-section .Ellipse-left {
+    position: absolute;
+    right: 0;
+}
+.main .home-section .Ellipse-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main .nav-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 14px 110px;
+}
+.main .nav-bar .logo-container {
+    position: relative;
+    z-index: 1;
+    flex: 1;
+}
+.main .nav-bar .logo-container a {
+    color: black;
+    font-size: 37px;
+    font-weight: 800;
+}
+.main .nav-bar .logo-container .arrow {
+    position: absolute;
+    left: 47px;
+    bottom: 2px;
+    z-index: 1;
+}
+.main .nav-bar .navitems-container {
+    display: flex;
+    align-items: center;
+}
+.main .nav-bar .navitems-container li {
+    z-index: 3;
+}
+.main .nav-bar .navitems-container li a {
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0 100px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    z-index: 9;
+}
+.main .nav-bar .navitems-container li a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: var(--Secondary);
+    transform: scale(0, 1);
+    transition: transform 185ms ease-in;
+}
+.main .nav-bar .navitems-container li a:hover::after {
+    transform: scale(1, 1);
+}
+.main .nav-bar .navitems-container li:nth-child(5) a::after,
+.main .nav-bar .navitems-container li:nth-child(6) a::after,
+.main .nav-bar .navitems-container li:nth-child(7) a::after {
+    all: unset;
+}
+.main .nav-bar .navitems-container li:nth-child(5) a {
+    margin-right: -15px;
+}
+.main .nav-bar .navitems-container li:nth-child(6) a {
+    display: inline-block;
+    width: 93px;
+    padding: 8px 13px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-right: -15px;
+}
+.main .nav-bar .navitems-container li:nth-child(7) a {
+    position: relative;
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+}
+.main .nav-bar .navitems-container li a .fa-solid {
+    position: absolute;
+    right: -15px;
+    top: 9px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.562);
+}
+/**/
+
+.main .home-section .hero-main {
+    margin: 0 110px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+}
+.main .home-section .hero-main .hero-text-container {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.main .home-section .hero-main .hero-text-container h2 {
+    z-index: 1;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--Secondary);
+}
+.main .home-section .hero-main .hero-text-container h1 {
+    z-index: 1;
+    font-size: 84px;
+    color: var(--Tertiary);
+    font-family: 'Volkhov', serif;
+    font-weight: bold;
+}
+.main .home-section .hero-main .hero-text-container p {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--Primary);
+}
+.main .home-section .hero-main .hero-text-container .hero-playbutton {
+    position: relative;
+}
+.main .home-section .hero-main .hero-text-container .hero-playbutton button {
+    margin-top: 30px;
+    width: 170px;
+    height: 60px;
+    background: #ff5454;
+    border-radius: 28px;
+    border: 0 solid #ff5454;
+    color: #f5f5f5;
+    font-size: 18px;
+}
+.main .home-section .hero-main .hero-text-container .hero-playbutton img {
+    position: absolute;
+    left: 180px;
+    bottom: -41px;
+}
+.main .home-section .hero-main .hero-text-container .hero-playbutton p {
+    position: absolute;
+    bottom: 16px;
+    left: 280px;
+}
+
+/*Traveler image*/
+.main .home-section .hero-main .hero-images-container {
+    position: relative;
+}
+.main .home-section .hero-main .hero-images-container .traveler {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1130px;
+    z-index: 1;
+}
+.main .home-section .hero-main .hero-images-container .traveler img {
+    width: 100%;
+    height: 100vh;
+}
+.main .home-section .hero-main .hero-images-container .plane1 {
+    position: absolute;
+    top: 5px;
+    right: 210px;
+    z-index: 1;
+}
+.main .home-section .hero-main .hero-images-container .plane2 {
+    position: absolute;
+    top: 5px;
+    left: 200px;
+    z-index: 1;
+}

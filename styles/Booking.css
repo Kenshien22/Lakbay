@@ -1,0 +1,180 @@
+.main .Book-section {
+    display: grid;
+    height: 66vh;
+    grid-template-rows: 80px 1fr auto;
+    gap: 80px;
+}
+.main .Book-section h2 {
+    display: flex;
+    align-items: center;
+    margin: 0 110px;
+    font-size: 40px;
+    color: var(--Tertiary);
+    font-family: 'Volkhov', serif;
+}
+.main .Book-section .booking-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr;
+}
+
+.main .Book-section .booking-container .optionway-container {
+    display: flex;
+}
+.main .Book-section .booking-container .optionway-container .return {
+    display: flex;
+    align-items: center;
+    margin-left: 110px;
+}
+.main .Book-section .booking-container .optionway-container .return button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.main .Book-section .booking-container .optionway-container button i {
+    font-size: 20px;
+    color: var(--Tertiary);
+}
+.main .Book-section .booking-container .optionway-container button p {
+    font-size: 16px;
+    color: var(--Primary);
+    margin-left: 15px;
+}
+.main .Book-section .booking-container .optionway-container .oneway {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+.main .Book-section .booking-container .optionway-container .oneway button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.main .Book-section .booking-container .optionway-container .Multy-city {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+.main .Book-section .booking-container .optionway-container .Multy-city button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.main .Book-section .booking-container .passenger-details-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.main .Book-section .booking-container .passenger-details-container .location-container {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    position: relative;
+}
+.main .Book-section .booking-container .passenger-details-container .location-container .fa-arrows-rotate {
+    position: absolute;
+    top: 74px;
+    left: 400px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.main .Book-section .booking-container .passenger-details-container .location-container .from-to-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+.main .Book-section .booking-container .passenger-details-container .location-container .from-to-container .from {
+    display: grid;
+    margin-left: 110px;
+}
+.main .Book-section .booking-container .passenger-details-container .location-container .from-to-container .from input {
+    width: 300px;
+    height: 64px;
+    border: 1px solid var(--Primary);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+.main .Book-section .booking-container .passenger-details-container .location-container .from-to-container .to {
+    display: grid;
+    grid-column: 2/3;
+}
+.main .Book-section .booking-container .passenger-details-container .location-container .from-to-container .to input {
+    width: 300px;
+    height: 64px;
+    border: 1px solid var(--Primary);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.main .Book-section .booking-container .passenger-details-container .passenger-search-container {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.main .Book-section .booking-container .passenger-details-container .passenger-search-container .passenger-class-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+.main .Book-section .booking-container .passenger-details-container .passenger-search-container .passenger-class-container .passenger {
+    display: grid;
+    margin-left: 110px;
+}
+.main .Book-section .booking-container .passenger-details-container .passenger-search-container .passenger-class-container .passenger input {
+    width: 260px;
+    height: 64px;
+    border: 1px solid var(--Primary);
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+.main .Book-section .booking-container .passenger-details-container .passenger-search-container .passenger-class-container .class {
+    display: grid;
+    grid-column: 2/3;
+}
+.main .Book-section .booking-container .passenger-details-container .passenger-search-container .passenger-class-container .class input {
+    width: 260px;
+    margin-left: 75px;
+    height: 64px;
+    border: 1px solid var(--Primary);
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.main .Book-section > .status-container {
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 110px;
+}
+.main .Book-section .status-container .checkin-container,
+.main .Book-section .status-container .status-container,
+.main .Book-section .status-container .manage-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--Primary);
+    border-radius: 10px;
+}
+.main .Book-section .status-container .checkin-container p:nth-child(2) {
+    margin-left: 7px;
+    color: var(--Primary);
+}
+.main .Book-section .status-container .status-container p:nth-child(2) {
+    margin-left: 7px;
+    color: var(--Primary);
+}
+.main .Book-section .status-container .manage-container p:nth-child(2) {
+    margin-left: 7px;
+    color: var(--Primary);
+}

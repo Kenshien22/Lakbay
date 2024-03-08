@@ -1,0 +1,17 @@
+.main .Logo-section {
+    display: grid;
+    grid-template-columns: 110px 1fr 110px;
+    grid-template-rows: 1fr 79px 1fr;
+    height: 50vh;
+}
+.main .Logo-section .logo-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    background: #181e4b0e;
+    border: 1.5px solid rgba(0, 0, 0, 0.445);
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
