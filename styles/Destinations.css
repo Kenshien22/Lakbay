@@ -5,12 +5,7 @@
     grid-template-rows: 80px 1fr;
     gap: 80px;
 }
-.main .Destination-section .bg-icon {
-    position: absolute;
-    top: 240px;
-    right: 350px;
-    z-index: -3;
-}
+
 .main .Destination-section h2 {
     display: flex;
     justify-content: center;
