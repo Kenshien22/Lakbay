@@ -4,6 +4,7 @@
 @import './Logo.css';
 @import './Destinations.css';
 @import './Booking.css';
+@import './Testimonials.css';
 * {
     margin: 0;
     padding: 0;

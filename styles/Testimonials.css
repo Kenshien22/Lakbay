@@ -1,0 +1,165 @@
+.main .testimonials-section {
+    display: grid;
+    height: 70vh;
+    grid-template-rows: 180px 1fr;
+    margin-top: 100px;
+}
+.main .testimonials-section .heading {
+    grid-row: 1/2;
+    margin-top: 50px;
+}
+.main .testimonials-section .heading h2 {
+    display: flex;
+    align-items: center;
+    margin: 0 110px;
+    font-size: 40px;
+    color: var(--Tertiary);
+    font-family: 'Volkhov', serif;
+}
+.main .testimonials-section .heading p {
+    margin: 0 110px;
+    font-size: 16px;
+    color: var(--Primary);
+    font-weight: bold;
+}
+.main .testimonials-section .testimonial-container {
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 0 110px;
+}
+.testimonials-section .testimonial-container .customer1 {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+.testimonials-section .testimonial-container .customer1 .customer-feedback {
+    grid-row: 1/2;
+}
+.testimonials-section .testimonial-container .customer1 i {
+    font-size: 24px;
+    color: yellow;
+    padding-bottom: 10px;
+}
+.testimonials-section .testimonial-container .customer1 p {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--Tertiary);
+}
+.testimonials-section .testimonial-container .customer-name {
+    display: flex;
+    grid-row: 2/3;
+}
+.testimonials-section .testimonial-container .image {
+    width: 51px;
+    height: 51px;
+}
+.testimonials-section .testimonial-container .image img {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+.testimonials-section .testimonial-container .customer-name p {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.testimonials-section .testimonial-container .customer-name p span {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--Primary);
+}
+/* Customer 2 */
+.testimonials-section .testimonial-container .customer2 {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+.testimonials-section .testimonial-container .customer2 .customer-feedback {
+    grid-row: 1/2;
+}
+.testimonials-section .testimonial-container .customer2 i {
+    font-size: 24px;
+    color: yellow;
+    padding-bottom: 10px;
+}
+.testimonials-section .testimonial-container .customer2 p {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--Tertiary);
+}
+.testimonials-section .testimonial-container .customer2 .customer-name {
+    display: flex;
+    grid-row: 2/3;
+}
+.testimonials-section .testimonial-container .customer2 .image {
+    width: 51px;
+    height: 51px;
+}
+.testimonials-section .testimonial-container .customer2 .image img {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+.testimonials-section .testimonial-container .customer2 .customer-name p {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.testimonials-section .testimonial-container .customer2 .customer-name p span {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--Primary);
+}
+/* Customer 3 */
+.testimonials-section .testimonial-container .customer3 {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+.testimonials-section .testimonial-container .customer3 .customer-feedback {
+    grid-row: 1/2;
+}
+.testimonials-section .testimonial-container .customer3 i {
+    font-size: 24px;
+    color: yellow;
+    padding-bottom: 10px;
+}
+.testimonials-section .testimonial-container .customer3 p {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--Tertiary);
+}
+.testimonials-section .testimonial-container .customer3 .customer-name {
+    display: flex;
+    grid-row: 2/3;
+}
+.testimonials-section .testimonial-container .customer3 .image {
+    width: 51px;
+    height: 51px;
+}
+.testimonials-section .testimonial-container .customer3 .image img {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+.testimonials-section .testimonial-container .customer3 .customer-name p {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.testimonials-section .testimonial-container .customer3 .customer-name p span {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--Primary);
+}

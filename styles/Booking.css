@@ -1,6 +1,6 @@
 .main .Book-section {
     display: grid;
-    height: 66vh;
+    height: 70vh;
     grid-template-rows: 80px 1fr auto;
     gap: 80px;
 }
@@ -231,6 +231,7 @@
     justify-content: center;
     border: 1px solid var(--Primary);
     border-radius: 10px;
+    cursor: pointer;
 }
 .main .Book-section .status-container .checkin-container p:nth-child(2) {
     margin-left: 7px;

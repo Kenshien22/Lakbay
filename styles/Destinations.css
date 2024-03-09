@@ -110,10 +110,9 @@
     transform: scale(1, 0);
     z-index: 3;
     transition: 400ms ease-in;
-    transform-origin: bottom;
     display: grid;
     grid-template-rows: 1fr auto;
-    background: var(--Tertiary);
+    background: #00ffee4b;
     border-radius: 20px;
 }
 .main .Destination-section .destination-list .disnation .hover-details .destination-container {
@@ -132,7 +131,7 @@
     font-weight: 500;
 }
 .main .Destination-section .destination-list .disnation .hover-details .destination-container span {
-    background: linear-gradient(to right, white, grey);
+    background: linear-gradient(to right, white, red, black);
     background-clip: text;
     color: transparent;
     font-size: 30px;
@@ -145,7 +144,7 @@
     margin: 0 20px;
 }
 .main .Destination-section .destination-list .disnation .hover-details .traveltrip-container p {
-    background: linear-gradient(to left, red, white);
+    background: linear-gradient(to left, red, black);
     background-clip: text;
     color: transparent;
     font-size: 18px;
